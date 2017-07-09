@@ -1,7 +1,7 @@
 // Mondodb:
 var MongoClient = require('mongodb').MongoClient
 var assert = require('assert')
-var url = 'mongodb://localhost:27018/test'
+var url = 'mongodb://localhost:27017/test'
 
 // Function to query db for all markers:
 var findMarkers = function(db, callback) {
